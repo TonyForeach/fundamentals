@@ -1,0 +1,151 @@
+/*<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 200 to 700*/
+
+/* *{
+    border: 1px solid white;
+} */
+
+
+@import url('https://fonts.cdnfonts.com/css/gobold');
+
+.gobold{
+    font-family: 'Gobold CUTS', sans-serif;
+    font-weight: normal;
+}
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .nav{
+      background-color: black;
+  }
+  
+  .logo{
+      color: white;
+      font-size: 40px;
+      font-family: Gobold;
+      font-weight: 400;
+      word-wrap: break-word;
+  }
+  .hero{
+      background-color: #BABABA;
+      background-image: url('/images/banner/banner_portada.jpg');
+      background-size: cover;
+      height: 750px;
+  }
+  .img-carrousel{
+      height: 590px;
+  }
+  .img-carrousel1{
+      height: 560px;
+  }
+  .img-carrousel2{
+      height: 700px;
+  }
+  .img-carrousel3{
+      height: 779px;
+  }
+  .img-carrousel4{
+      height: 779px;
+  }
+
+  .btn-light{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    transition: all ease-in 0.2s !important;
+  }
+  .btn-light:hover{
+    background-color: #DCE22A !important;
+    color: #333 !important;
+  }
+
+  li{
+    text-decoration: none;
+  }
+  li:hover{
+    text-decoration: underline;
+    text-decoration-color: #DCE22A;
+  }
+  .mb-btn{
+    margin-bottom: -40px;
+}
+.btn-2{
+    margin-bottom: 200px;
+}
+.img-margin{
+    margin-top: -150px;
+}
+
+.btn-hero{
+    margin-top: 22rem;
+}
+  
+  
+@media screen and (max-width: 576px) {
+    .img-carrousel, .img-carrousel1,
+    .img-carrousel2,
+    .img-carrousel3,
+    .img-carrousel4{
+          height: 300px;
+    }
+  
+    .img-carrousel3, .img-carrousel2{
+          margin-top: 0px !important;
+    }
+    .hero{
+        background-image: url('/images/banner/banner_portada_movil.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 48rem;
+    }
+    .hero2{
+        height: 450px;
+        background-color: #BABABA;
+    }
+    .item-centrado {
+        text-align: center; /* Se centra el texto solo en dispositivos moviles */
+    }
+    .mb-btn{
+        margin-bottom: 55px;
+    }
+    .btn-2{
+        margin-bottom: 50px;
+    }
+    .img-margin{
+        margin-top: 0;
+    }
+    .mb-200{
+        margin-bottom: 100px;
+    }
+    .btn-hero{
+        margin-top: 2rem;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1024px){
+    .item-centrado {
+        text-align: center; /* Se centra el texto solo en dispositivos tabletas */
+    }
+    .mb-200{
+        margin-bottom: 100px;
+    }
+
+    .hero{
+        background-color: #BABABA;
+        background-image: url('/images/banner/banner_portada_tableta.jpg');
+        background-size: cover;
+        height: 62rem;
+    }
+
+    .mb-btn{
+        margin-bottom: 55px;
+    }
+    .btn-2{
+        margin-bottom: 50px;
+    }
+    .img-margin{
+        margin-top: 0;
+    }
+}  
